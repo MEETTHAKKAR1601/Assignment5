@@ -1,7 +1,7 @@
 const express = require('express');
 const exphbs = require('express-handlebars');
 const bodyParser = require('body-parser');
-const collegeData = require('./collegeData.js');
+const collegeData = require('./collegeDATA.js');
 
 const app = express();
 const PORT = process.env.PORT || 8080;
